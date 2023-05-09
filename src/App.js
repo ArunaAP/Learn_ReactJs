@@ -1,5 +1,5 @@
 import './App.css';
-// import Greet from './Components/Greet';
+import Greet from './Components/Greet';
 import Counter from './Components/Counter';
 import Message from './Components/Message';
 
@@ -8,11 +8,11 @@ function App() {
     <div className="App">
       {/* <Message /> */}
 
-      <Counter />
+      {/* <Counter /> */}
 
-      {/* <Greet name="Aruna"/>
-    <Greet name="Priyankara"/>
-    <Greet name="John"/> */}
+      <Greet name="Aruna" heroName ="Super man"/>
+      <Greet name="Priyankara" heroName ="Spider Man"/>
+      <Greet name="John" heroName ="Iron Man"/>
     </div>
   );
 }
