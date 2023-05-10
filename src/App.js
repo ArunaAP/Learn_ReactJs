@@ -5,19 +5,18 @@ import Message from './Components/Message';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import ParentComponents from './Components/ParentComponents';
+import UserGreeting from './Components/UserGreeting';
 
 function App() {
   return (
     <div className="App">
-      <ParentComponents/>
+      <UserGreeting/>
 
-      {/* <FunctionClick />
-      <ClassClick /> */}
-
+      {/* <ParentComponents/> */}
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
       {/* <Message /> */}
-
       {/* <Counter /> */}
-
       {/* <Greet name="Aruna" heroName ="Super man"/>
       <Greet name="Priyankara" heroName ="Spider Man"/>
       <Greet name="John" heroName ="Iron Man"/> */}
