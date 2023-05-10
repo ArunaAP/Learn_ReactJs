@@ -4,12 +4,15 @@ import Counter from './Components/Counter';
 import Message from './Components/Message';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
+import ParentComponents from './Components/ParentComponents';
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
+      <ParentComponents/>
+
+      {/* <FunctionClick />
+      <ClassClick /> */}
 
       {/* <Message /> */}
 
