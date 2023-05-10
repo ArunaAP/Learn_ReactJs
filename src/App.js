@@ -6,12 +6,13 @@ import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import ParentComponents from './Components/ParentComponents';
 import UserGreeting from './Components/UserGreeting';
+import NameList from './Components/NameList';
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting/>
-
+      <NameList/>
+      {/* <UserGreeting/> */}
       {/* <ParentComponents/> */}
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
